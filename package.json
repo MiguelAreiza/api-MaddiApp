@@ -1,0 +1,18 @@
+{
+  "name": "api-maddiapp",
+  "version": "1.0.0",
+  "description": "Api-MaddiApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/Index.js",
+    "dev": "nodemon ./src/Index.js"
+  },
+  "author": "MiguelAreiza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "mssql": "^9.0.1"
+  }
+}
