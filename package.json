@@ -4,8 +4,8 @@
   "description": "Api-MaddiApp",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js",
-    "dev": "nodemon ./src/index.js"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "author": "MiguelAreiza",
   "license": "ISC",
@@ -14,5 +14,13 @@
     "express": "^4.18.2",
     "git": "^0.1.5",
     "mssql": "^9.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelAreiza/api-MaddiApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiguelAreiza/api-MaddiApp/issues"
+  },
+  "homepage": "https://github.com/MiguelAreiza/api-MaddiApp#readme"
 }
